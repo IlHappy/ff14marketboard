@@ -23,4 +23,4 @@ endgame_items_marketable = endgame_items_marketable[endgame_items["CanBeHq"]]
 
 #output
 print(endgame_items_marketable.head())
-endgame_items_marketable.to_csv("marketable", index = False)
+endgame_items_marketable.to_csv("marketable.csv", index = False)
